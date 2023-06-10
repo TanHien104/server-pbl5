@@ -1,0 +1,37 @@
+{
+  "development": {
+    "username": "motel_room_user",
+    "password": "jcTS0uqhifgz90jUW9PAVLrmZw4bAZXl",
+    "database": "motel_room",
+    "port":"5432",
+    "host": "dpg-chfmi1ak728sd6mkfhug-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "logging": false,
+    "timezone":"+07:00",
+    "dialectOptions":{
+      "ssl":{
+        "require":true,
+        "rejectUnauthorized":false
+      }
+    }
+    
+    
+
+  },
+  "production": {
+    "username": "motel_room_user",
+    "password": "jcTS0uqhifgz90jUW9PAVLrmZw4bAZXl",
+    "database": "motel_room",
+    "host": "dpg-chfmi1ak728sd6mkfhug-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "port":"5432",
+    "logging": false,
+    "timezone":"+07:00",
+    "dialectOptions":{
+      "ssl":{
+        "require":true,
+        "rejectUnauthorized":false
+      }
+    }
+  }
+}
